@@ -1,0 +1,24 @@
+# Webtek-Prosjbody {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.popup {
+    background-color: black;
+    padding: 30px; 
+    border: 10px solid rgba(175, 24, 185, 0.801);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+ p{
+    color:white;
+}
+h1{
+    color:white;
+}ekt
