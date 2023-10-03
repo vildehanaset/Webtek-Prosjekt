@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midtstilt boks</title>
+    <link rel="stylesheet" href="stil.css"> <!-- Du kan lage en egen CSS-fil for styling -->
+</head>
+<body>
+    <div class="popup">
+        <!-- Din informasjon her -->
+        <h1>OM OSS</h1>
+        <p>Vi er en gruppe på fem studenter fra første klasse Digital Forretningsutvikling ved NTNU 
+            som har laget dette spillet. <br> Medlemmene i gruppen heter: Torkil, Live, Nataly, Mari & Vilde. <br>
+            Vi har jobbet med dette spillet i to måneder og håper du som spiller liker det og blir hakke kvassere i memory game. <br>
+            HAPPY HALLOWEEN!!!</p>
+   
+    </div>
+    <script src="script.js"></script> <!-- JavaScript-filen din -->
+</body>
+</html>
