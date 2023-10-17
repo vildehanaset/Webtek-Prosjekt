@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Hukomelse spill</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="start">
+    <h1>VELKOMMEN TIL SPELLET</h1><br>
+    <label>Velg vanskeligsGrad:</label>
+    <select class="vanskeligsGrad">
+      <option>Middels</option>
+      <option>Lett</option>
+      <option>Vanskelig</option>
+    </select>
+    <button onclick="forsvinn()">TRYKK?</button>
+  </div>
+
+  <div id="slutt">
+    <h1>VELKOMMEN TIL SPELLET IGJEN, prøv igen??</h1><br>
+    <label>Velg vanskeligsGrad:</label>
+    <select class="vanskeligsGrad">
+      <option>Middels</option>
+      <option>Lett</option>
+      <option>Vanskelig</option>
+    </select>
+    <button onclick="gjenta()">TRYKK?</button>
+  </div>
+  </div>
+
+  <div id="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/" alt="1">
+      <img class="back-face" src="img/" alt="1">
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/" alt="1">
+      <img class="back-face" src="img/" alt="1">
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/" alt="2">
+      <img class="back-face" src="img/" alt="2">
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/" alt="2">
+      <img class="back-face" src="img/" alt="2">
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/" alt="3">
+      <img class="back-face" src="img/" alt="3">
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/" alt="3">
+      <img class="back-face" src="img/" alt="3">
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/" alt="4" />
+      <img class="back-face" src="img/" alt="4" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/" alt="4" />
+      <img class="back-face" src="img/" alt="4" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/" alt="5" />
+      <img class="back-face" src="img/" alt="5" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/" alt="5" />
+      <img class="back-face" src="img/" alt="5" />
+    </div>
+
+    <div class="memory-card" data-framework="no" id="6">
+      <img class="front-face" src="img/" alt="6" />
+      <img class="back-face" src="img/" alt="6" />
+    </div>
+    <div class="memory-card" data-framework="no" id="6">
+      <img class="front-face" src="img" alt="6" />
+      <img class="back-face" src="img/" alt="6" />
+    </div>
+    <div class="memory-card" data-framework="noAnnet">
+      <img class="front-face" src="img/" alt="7" />
+      <img class="back-face" src="img/" alt="7" />
+    </div>
+    <div class="memory-card" data-framework="noAnnet">
+      <img class="front-face" src="img" alt="7" />
+      <img class="back-face" src="img/" alt="7" />
+    </div>
+    <div class="memory-card" data-framework="noAnnet1">
+      <img class="front-face" src="img/" alt="8"/>
+      <img class="back-face" src="img/" alt="8"/>
+    </div>
+    <div class="memory-card" data-framework="noAnnet1">
+      <img class="front-face" src="img" alt="8" />
+      <img class="back-face" src="img/" alt="8" />
+    </div>
+     
+  </div>
+  <div class="scoreboard">
+    <section>
+      <p id="poeng">POENG:</p>
+      <p id="tid">TID:</p>
+    </section>
+  </div>
+  <div id="gresskar" style="position: absolute; left: 0px;">
+    <img src="img/">
+  </div>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
